@@ -27,7 +27,7 @@ const AppProvider = ({ children }) => {
           }
         })
         setCocktails(newCocktails);
-        // setLoading(false);
+        setLoading(false);
       }
       else {
         setCocktails([]);

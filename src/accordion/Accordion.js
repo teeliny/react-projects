@@ -1,8 +1,9 @@
 import React from 'react';
 import data from './data';
 import SingleQuestion from './Question';
-function App() {
+import './accordion.css';
 
+function Accordion() {
   return (
     <main className="">
       <div className="container">
@@ -17,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default Accordion;

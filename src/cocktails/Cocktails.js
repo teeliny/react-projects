@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import './cocktails.css';
 // import pages
 import Home from './pages/Home'
 import About from './pages/About'
@@ -7,7 +8,7 @@ import SingleCocktail from './pages/SingleCocktail'
 import Error from './pages/Error'
 // import components
 import Navbar from './components/Navbar'
-function App() {
+function Cocktails() {
   return (
     <Router>
       <Navbar />
@@ -21,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+export default Cocktails

@@ -4,7 +4,6 @@ import reducer from './reducer'
 
 const url = 'https://course-api.com/react-useReducer-cart-project'
 const AppContext = React.createContext()
-
 const initialState = {
   loading: false,
   cart: cartItems,
@@ -41,7 +40,7 @@ const AppProvider = ({ children }) => {
   useEffect(() => {
     fetchData();
   }, []);
-
+  
   const toggleAmount = (id, type) => {
     dispatch({type: 'TOGGLE_AMOUNT', payload:{id, type}})
   }
