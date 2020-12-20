@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
+import './tabs.css';
 import { FaAngleDoubleRight } from 'react-icons/fa'
 
 const url = 'https://course-api.com/react-tabs-project'
-function App() {
+function TabApp() {
   const [loading, setLoading] = useState(true);
   const [jobs, setJobs] = useState([]);
   const [value, setValue] = useState(0);
@@ -56,4 +57,4 @@ function App() {
   </section>)
 }
 
-export default App
+export default TabApp;

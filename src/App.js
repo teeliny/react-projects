@@ -1,10 +1,10 @@
 
-import NavbarApp from '../src/navbar/NavbarApp'
+import StripeWrapper from '../src/stripeSubmenu/StripeWrapper'
 
 function App() {
   return (
     <div className="App">
-        <NavbarApp />
+      <StripeWrapper />
     </div>
   );
 }

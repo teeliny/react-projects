@@ -3,7 +3,8 @@ import Navbar from './Navbar'
 import Hero from './Hero'
 import Sidebar from './Sidebar'
 import Submenu from './Submenu'
-function App() {
+
+function StripeApp() {
   return (
     <>
       <Navbar />
@@ -14,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default StripeApp

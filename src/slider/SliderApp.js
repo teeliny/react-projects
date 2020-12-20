@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import { FaQuoteRight } from 'react-icons/fa';
+import './slider.css';
 import data from './data';
-function App() {
+
+function SliderApp() {
   const [people, /*setpeople*/] = useState(data);
   const [index, setIndex] = useState(0);
 
@@ -52,4 +54,4 @@ function App() {
   </section>;
 }
 
-export default App;
+export default SliderApp;

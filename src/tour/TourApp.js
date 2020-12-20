@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react'
-import Loading from './Loading'
-import Tours from './Tours'
+import React, { useState, useEffect } from 'react';
+import './tour.css';
+import Loading from './Loading';
+import Tours from './Tours';
 
 const url = 'https://course-api.com/react-tours-project'
-function App() {
+function TourApp() {
   const [loading, setLoading] = useState(true);
   const [tours, setTours] = useState([]);
 
@@ -43,4 +44,4 @@ function App() {
   return <main><Tours tours={tours} removeTour={removeTour}/></main>
 }
 
-export default App
+export default TourApp

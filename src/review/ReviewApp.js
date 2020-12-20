@@ -1,6 +1,8 @@
 import React from 'react';
+import './review.css';
 import Review from './Review';
-function App() {
+
+function ReviewApp() {
   return (
     <main>
       <section className="container">
@@ -14,4 +16,4 @@ function App() {
   )
 }
 
-export default App;
+export default ReviewApp;

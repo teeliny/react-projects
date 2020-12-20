@@ -10,13 +10,13 @@ const Submenu = () => {
   useEffect(() => {
     const submenu = container.current;
     const { center, bottom } = location;
-    console.log(submenu)
-    // submenu.style.left = `${center}px`;
-    // submenu.style.top = `${bottom}px`;
+    submenu.style.left = `${center}px`;
+    submenu.style.top = `${bottom}px`;
     setColumns(`col-${links.length}`);
   }, [location, links])
+  
   return (
-    <aside className={`${isSubmenuOpen ? 'submenu show' : 'submenu'}`}>
+    <aside className={`${isSubmenuOpen ? 'submenu show' : 'submenu'}`} ref={container}>
       <h4>{page}</h4>
       <div className={`submenu-center ${columns}`}>
         {links.map((link, index) => {
