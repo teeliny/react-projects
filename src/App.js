@@ -1,10 +1,10 @@
 
-import StripeWrapper from '../src/stripeSubmenu/StripeWrapper'
+import MovieApp from '../src/react-omdb-movie-app/MovieApp'
 
 function App() {
   return (
     <div className="App">
-      <StripeWrapper />
+      <MovieApp />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './quiz.css';
 import moment from 'moment';
 import data from './data.json';
 
