@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import './menu.css';
 import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
 
 let allCategories = ['all', ...new Set(items.map(item => item.category))]
 
-function App() {
+function MenuApp() {
   const [menuItems, setMenuItems] = useState(items);
   const [categories, /*setCategories*/] = useState(allCategories);
 
@@ -31,4 +32,4 @@ function App() {
   </main>;
 }
 
-export default App;
+export default MenuApp;

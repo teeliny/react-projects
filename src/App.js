@@ -1,10 +1,10 @@
 
-import CartWrapper from '../src/cocktails/CocktailsWrapper'
+import NavbarApp from '../src/navbar/NavbarApp'
 
 function App() {
   return (
     <div className="App">
-        <CartWrapper />
+        <NavbarApp />
     </div>
   );
 }

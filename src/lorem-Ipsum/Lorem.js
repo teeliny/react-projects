@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import './lorem.css';
 import data from './data';
-function App() {
+function Lorem() {
   const [count, setCount] = useState(0);
   const [text, setText] = useState([]);
 
@@ -44,4 +45,4 @@ function App() {
     )
 }
 
-export default App;
+export default Lorem;

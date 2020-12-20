@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import moment from 'moment';
+import './grocery.css';
 import List from './List';
 import Alert from './Alert';
 
